@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aportaciones</title>
+</head>
+
+<body>
+
+    <h1>Aportaciones y comentarios</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Página principal</a></li>
+            <li><a href="Moral.html">Juicio Moral</a></li>
+            <li><a href="Etica.html">Juicio Ético</a></li>
+        </ul>
+    </nav>
+
+    
+
+    <h2>Integrantes del equipo:</h2>
+
+    <ul class="lista-etica">
+        <li>Ortega Coria Kevin Daniel</li>
+        <li>González Flores Alexis</li>
+        <li>Romero Vidal Ángel Iván</li>
+        <li>Sánchez Paredes Marco Antonio</li>
+        <li>Rosales Tapia Dayla Belén</li>
+    </ul>
+<h2>Agradecemos su atención y participación en esta exposición
+        sobre el juicio moral y el juicio ético.</h2>
+        
+    
+    <h2>Sugerencias</h2>
+
+    <form class="formulario-contacto"
+          action="https://formspree.io/f/mjygbdab"
+          method="POST">
+
+        <label for="nombre">Nombre</label>
+
+        <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Escribe tu nombre"
+            required
+        >
+
+        <label for="email">Correo electrónico</label>
+
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Escribe tu correo"
+            required
+        >
+
+        <label for="comentario">Comentario</label>
+
+        <textarea
+            id="comentario"
+            name="comentario"
+            rows="6"
+            placeholder="Escribe tu comentario..."
+            required>
+        </textarea>
+
+        <input
+            type="hidden"
+            name="subject"
+            value="Nuevo comentario - Juicio Moral y Ético"
+        >
+
+        <button type="submit">Enviar comentario</button>
+
+    </form>
+
+</body>
+</html>
